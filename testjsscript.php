@@ -8,7 +8,7 @@
 
         <select class="any-class-name" name ="sel2"></select>
 
-        <select class="any-class-name" name ="sel3"></select>
+        <select class="any-class-name" name ="sel3"></select> 
 
         <select class="any-class-name" name ="sel4"></select>
 
@@ -35,12 +35,5 @@
         selects.setDefaultValue("Nothing");
 
         selects.init();
-        //let s1 = document.getElementsByClassName('any-class-name');
-        //let o1 = document.querySelectorAll('option[value=red]');
-
-        //console.log(s1);
-        //console.log(o1);
-        //console.log(document.querySelectorAll('option:checked'));
-        //change() => selects.onSelect(el);
     </script>
 </html>

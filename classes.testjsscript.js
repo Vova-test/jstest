@@ -31,14 +31,12 @@ class SmartSelects {
     }
 
     onSelect(el) {
-        
         this.toggleOptions(el.target.value, true);
 
         let newColors = [];
         let selectedOptions = document.querySelectorAll('option:checked');
 
         for (let i = 0; i < selectedOptions.length; i++) {
-
             newColors.push(selectedOptions[i].value);
         }
 
@@ -57,20 +55,17 @@ class SmartSelects {
 
         for (let i = 0; i < selector.length; i++) { 
 
-             let option = document.createElement('option');                 
-                selector[i].append(option);
-                selector[i].onchange = this.onSelect.bind(this);
-                //selector[i].onchange = ()=>console.log("test");
-                option.text = this.val;
-                option.value = this.val;
+            let option = document.createElement('option');                 
+            selector[i].append(option);
+
+            selector[i].onchange = this.onSelect.bind(this);
+            option.text = this.val;
+            option.value = this.val;
 
             for (let color in colors) {
 
                 let option = document.createElement('option');                 
-                selector[i].append(option);
-                option.text = colors[color];
-                option.value = color;
-                option.name = color; 
+                selector[i].append(скуфеуваіаа(рою пр));
             }
         }
     }
